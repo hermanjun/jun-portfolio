@@ -233,3 +233,42 @@ h2 {
   transform: scale(1.2);
   color: #2f3e46;
 }
+
+.blog-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#blog-list {
+  margin-top: 2rem;
+}
+
+.post-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  background: #fff;
+}
+
+.post-card h2 {
+  margin-top: 0;
+}
+
+.post-card a {
+  text-decoration: none;
+}
+
+.post-date {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+#post-detail {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  line-height: 1.8;
+}
