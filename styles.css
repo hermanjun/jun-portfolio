@@ -207,12 +207,16 @@ h2 {
 }
 
 .project {
-  background-color: #fdfcf8;
+  /* background-color: #fdfcf8;
   border: 1px solid #2f3e46;
-  border-radius: 8px;
+  border-radius: 8px; */
   padding: 20px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  width: fit-content;
+  color: #666;
+  font-size: 1.1rem;
 }
 
 /* ====== Social Icons ====== */
@@ -271,4 +275,19 @@ h2 {
   margin: 0 auto;
   padding: 2rem;
   line-height: 1.8;
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 12px 24px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2f3e46;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
 }
