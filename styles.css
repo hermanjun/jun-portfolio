@@ -248,6 +248,11 @@ h2 {
   margin-top: 2rem;
 }
 
+#blog-list h2 {
+  font-size: 1.4rem;
+  margin: 6px 0;
+}
+
 .post-card {
   border: 1px solid #ddd;
   border-radius: 12px;
