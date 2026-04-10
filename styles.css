@@ -290,6 +290,7 @@ h2 {
   margin: 6px 0;
 }
 
+/* ====== Blog Cards ====== */
 .post-card {
   border: 1px solid #ddd;
   border-radius: 12px;
@@ -312,11 +313,26 @@ h2 {
   margin-bottom: 1rem;
 }
 
+/* ====== Post Detail Page ====== */
 #post-detail {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
   line-height: 1.8;
+}
+#post-detail h1 {
+  text-align: center;
+}
+
+#post-detail .post-date {
+  text-align: center;
+}
+#post-detail p {
+  text-align: left;
+}
+
+#post-detail p:last-child {
+  text-align: center;
 }
 
 nav {
