@@ -2,9 +2,15 @@
 const blogList = document.getElementById("blog-list");
 
 function renderPosts() {
-    blogList,innerHTML = "";
+    if (!blogList) return;
+    
+    blogList.innerHTML = "";
 
-    posts.forEach((post) => {
+    const sortedPosts = [...posts].sort((a, b) => {
+        return b.id - a.id;
+    });
+    
+    sortedPosts.forEach((post) => {
         const postCard = document.createElement("div");
         postCard.className = "post-card";
 

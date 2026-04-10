@@ -18,7 +18,7 @@ function renderPostDetails() {
         return;
     }
 
-    const paragraphsHTML =post.content
+    const paragraphsHTML = post.content
     .map((paragraph) => `<p>${paragraph}</p>`)
     .join("");
 

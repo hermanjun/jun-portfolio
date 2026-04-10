@@ -4,7 +4,7 @@ function renderHomeBlogPosts() {
   if (!homeBlogList) return;
 
   const sortedPosts = [...posts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
+    (a, b) => b.id - a.id
   );
 
   homeBlogList.innerHTML = "";
